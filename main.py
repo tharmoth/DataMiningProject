@@ -155,8 +155,7 @@ class DataMiner:
 
 
 if __name__ == '__main__':
-    # miner = DataMiner()
-    # miner.read(False)
-    print(math.factorial(15000)/(2*math.factorial(14998)))
+    miner = DataMiner()
+    miner.read(False)
 
 
